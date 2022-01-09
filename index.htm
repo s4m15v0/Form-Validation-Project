@@ -6,10 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Validation with RegeX</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
     <h1>Form Validation</h1>
+    <div class="container">
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">UserName</label>
+                <input id="username" type="text" placeholder="Enter username">
+                <small>Please type a username</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input id="email" type="text" placeholder="Enter email">
+                <small>Please type an email</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input id="password" type="password" placeholder="Enter password">
+                <small>Please type a password</small>
+            </div>
+            <div class="form-control">
+                <label for="confirm-password">Confirm password</label>
+                <input id="confirm-password" type="password" placeholder="Confirm password">
+                <small>Passwords do not match</small>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
     <script src="main.js"></script>
 </body>
 

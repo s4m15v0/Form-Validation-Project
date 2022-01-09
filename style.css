@@ -1,0 +1,23 @@
+.form {
+    padding: 30px 40px;
+}
+
+
+.form-control {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+
+form button {
+    cursor: pointer;
+    background-color: #3498db;
+    border: 2px solid #3498db;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+}
